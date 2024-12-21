@@ -1,0 +1,60 @@
+[debug] [2024-12-21T09:37:08.238Z] : 
+[debug] [2024-12-21T09:37:08.241Z] : ----------------------------------------------------------------------
+[debug] [2024-12-21T09:37:08.242Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js login
+[debug] [2024-12-21T09:37:08.242Z] : CLI Version:  1.17.6
+[debug] [2024-12-21T09:37:08.243Z] : Platform:     win32
+[debug] [2024-12-21T09:37:08.243Z] : Node Version: v22.9.0
+[debug] [2024-12-21T09:37:08.244Z] : Time:         Sat Dec 21 2024 01:37:08 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-21T09:37:08.244Z] : ----------------------------------------------------------------------
+[debug] [2024-12-21T09:37:08.244Z] : 
+[debug] [2024-12-21T09:37:19.755Z] : migration completed for v1.4.0
+[debug] [2024-12-21T09:37:19.849Z] : migration completed for v1.6.2
+[info] [2024-12-21T09:37:33.735Z] : 
+[info] [2024-12-21T09:37:33.735Z] : Visit this URL on this device to log in:
+[info] [2024-12-21T09:37:33.741Z] : https://accounts.zoho.in/oauth/v2/auth?client_id=1000.D5IIHDXSPN2MII26AD0V61I6RMVSNM&scope=ZohoCatalyst.apigateway.apis.READ%20ZohoCatalyst.apigateway.apis.CREATE%20ZohoCatalyst.apigateway.apis.UPDATE%20ZohoCatalyst.apigateway.apis.DELETE%20ZohoCatalyst.apigateway.READ%20ZohoCatalyst.apigateway.UPDATE%20ZohoCatalyst.segments.ALL%20ZohoCatalyst.cache.READ%20ZohoCatalyst.cache.CREATE%20ZohoCatalyst.cache.DELETE%20ZohoCatalyst.queue.ALL%20ZohoCatalyst.queue.data.READ%20ZohoCatalyst.queue.data.CREATE%20ZohoCatalyst.projects.ALL%20ZohoCatalyst.project.export.READ%20ZohoCatalyst.project.export.CREATE%20ZohoCatalyst.project.import.READ%20ZohoCatalyst.project.import.CREATE%20ZohoCatalyst.project.import.DELETE%20ZohoCatalyst.cron.ALL%20ZohoCatalyst.zcql.CREATE%20ZohoCatalyst.webapp.ALL%20ZohoCatalyst.projects.users.READ%20ZohoCatalyst.projects.users.CREATE%20ZohoCatalyst.projects.users.DELETE%20ZohoCatalyst.projects.users.UPDATE%20ZohoCatalyst.authentication.CREATE%20ZohoCatalyst.email.CREATE%20ZohoCatalyst.tables.ALL%20ZohoCatalyst.tables.rows.ALL%20ZohoCatalyst.tables.columns.ALL%20ZohoCatalyst.tables.bulk.READ%20ZohoCatalyst.tables.bulk.CREATE%20ZohoCatalyst.folders.ALL%20ZohoCatalyst.files.CREATE%20ZohoCatalyst.files.READ%20ZohoCatalyst.files.DELETE%20ZohoCatalyst.functions.ALL%20ZohoCatalyst.functions.EXECUTE%20ZohoCatalyst.eventlistners.ALL%20ZohoCatalyst.eventlisteners.produce%20ZohoCatalyst.security.rules.Read%20ZohoCatalyst.security.rules.Update%20ZohoCatalyst.notifications.mobile%20ZohoCatalyst.notifications.web%20ZohoCatalyst.search.READ%20ZohoCatalyst.mlkit.READ%20QuickML.deployment.READ%20ZohoCatalyst.pdfshot.execute%20ZohoCatalyst.circuits.execute%20ZohoCatalyst.circuits.execution.READ%20ZohoCatalyst.circuits.execution.DELETE%20ZohoCatalyst.cli.logs.CREATE%20ZohoCatalyst.appsail.Read%20ZohoCatalyst.appsail.Create%20ZohoCatalyst.appsail.Update%20ZohoCatalyst.appsail.Delete%20AaaServer.profile.READ%20Stratus.sdkop.CREATE%20Stratus.sdkop.READ&response_type=code&access_type=offline&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A9005&state=7c3%2BS0Whw2Nf2i5JvAXD4A%3D%3D
+[info] [2024-12-21T09:37:33.741Z] : 
+[error] [2024-12-21T09:38:02.920Z] : × Invalid state param received.
+[debug] [2024-12-21T09:38:02.921Z] : Error Stack: CatalystError: Invalid state param received.
+    at Login.<anonymous> (C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:305:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:4:12)
+    at Server.<anonymous> (C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:291:71)
+    at Server.emit (node:events:519:28)
+    at parserOnIncoming (node:_http_server:1150:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:118:17)
+[debug] [2024-12-21T09:38:02.921Z] : Error Status: 500
+[info] [2024-12-21T09:38:02.952Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-12-21T09:38:02.955Z] : EXEC ENDED with event: Error (Unexpected), message: Server crashed with error.
+
+[debug] [2024-12-21T09:38:02.956Z] : TOTAL DURATION OF COMMAND EXEC : 43264
+[debug] [2024-12-21T09:38:32.854Z] : 
+[debug] [2024-12-21T09:38:32.861Z] : ----------------------------------------------------------------------
+[debug] [2024-12-21T09:38:32.862Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js login
+[debug] [2024-12-21T09:38:32.862Z] : CLI Version:  1.17.6
+[debug] [2024-12-21T09:38:32.863Z] : Platform:     win32
+[debug] [2024-12-21T09:38:32.863Z] : Node Version: v22.9.0
+[debug] [2024-12-21T09:38:32.863Z] : Time:         Sat Dec 21 2024 01:38:32 GMT-0800 (Pacific Standard Time)
+[debug] [2024-12-21T09:38:32.864Z] : ----------------------------------------------------------------------
+[debug] [2024-12-21T09:38:32.864Z] : 
+[info] [2024-12-21T09:39:18.993Z] : 
+[info] [2024-12-21T09:39:18.994Z] : Visit this URL on this device to log in:
+[info] [2024-12-21T09:39:18.995Z] : https://accounts.zoho.in/oauth/v2/auth?client_id=1000.D5IIHDXSPN2MII26AD0V61I6RMVSNM&scope=ZohoCatalyst.apigateway.apis.READ%20ZohoCatalyst.apigateway.apis.CREATE%20ZohoCatalyst.apigateway.apis.UPDATE%20ZohoCatalyst.apigateway.apis.DELETE%20ZohoCatalyst.apigateway.READ%20ZohoCatalyst.apigateway.UPDATE%20ZohoCatalyst.segments.ALL%20ZohoCatalyst.cache.READ%20ZohoCatalyst.cache.CREATE%20ZohoCatalyst.cache.DELETE%20ZohoCatalyst.queue.ALL%20ZohoCatalyst.queue.data.READ%20ZohoCatalyst.queue.data.CREATE%20ZohoCatalyst.projects.ALL%20ZohoCatalyst.project.export.READ%20ZohoCatalyst.project.export.CREATE%20ZohoCatalyst.project.import.READ%20ZohoCatalyst.project.import.CREATE%20ZohoCatalyst.project.import.DELETE%20ZohoCatalyst.cron.ALL%20ZohoCatalyst.zcql.CREATE%20ZohoCatalyst.webapp.ALL%20ZohoCatalyst.projects.users.READ%20ZohoCatalyst.projects.users.CREATE%20ZohoCatalyst.projects.users.DELETE%20ZohoCatalyst.projects.users.UPDATE%20ZohoCatalyst.authentication.CREATE%20ZohoCatalyst.email.CREATE%20ZohoCatalyst.tables.ALL%20ZohoCatalyst.tables.rows.ALL%20ZohoCatalyst.tables.columns.ALL%20ZohoCatalyst.tables.bulk.READ%20ZohoCatalyst.tables.bulk.CREATE%20ZohoCatalyst.folders.ALL%20ZohoCatalyst.files.CREATE%20ZohoCatalyst.files.READ%20ZohoCatalyst.files.DELETE%20ZohoCatalyst.functions.ALL%20ZohoCatalyst.functions.EXECUTE%20ZohoCatalyst.eventlistners.ALL%20ZohoCatalyst.eventlisteners.produce%20ZohoCatalyst.security.rules.Read%20ZohoCatalyst.security.rules.Update%20ZohoCatalyst.notifications.mobile%20ZohoCatalyst.notifications.web%20ZohoCatalyst.search.READ%20ZohoCatalyst.mlkit.READ%20QuickML.deployment.READ%20ZohoCatalyst.pdfshot.execute%20ZohoCatalyst.circuits.execute%20ZohoCatalyst.circuits.execution.READ%20ZohoCatalyst.circuits.execution.DELETE%20ZohoCatalyst.cli.logs.CREATE%20ZohoCatalyst.appsail.Read%20ZohoCatalyst.appsail.Create%20ZohoCatalyst.appsail.Update%20ZohoCatalyst.appsail.Delete%20AaaServer.profile.READ%20Stratus.sdkop.CREATE%20Stratus.sdkop.READ&response_type=code&access_type=offline&prompt=consent&redirect_uri=http%3A%2F%2Flocalhost%3A9005&state=%2BD4UDtBAB0FUFSTt2266aw%3D%3D
+[info] [2024-12-21T09:39:18.995Z] : 
+[error] [2024-12-21T09:39:26.930Z] : × Invalid state param received.
+[debug] [2024-12-21T09:39:26.931Z] : Error Stack: CatalystError: Invalid state param received.
+    at Login.<anonymous> (C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:305:35)
+    at Generator.next (<anonymous>)
+    at C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:4:12)
+    at Server.<anonymous> (C:\Users\Sudhakar\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\authentication\login.js:291:71)
+    at Server.emit (node:events:519:28)
+    at parserOnIncoming (node:_http_server:1150:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:118:17)
+[debug] [2024-12-21T09:39:26.931Z] : Error Status: 500
+[info] [2024-12-21T09:39:26.931Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-12-21T09:39:26.932Z] : EXEC ENDED with event: Error (Unexpected), message: Server crashed with error.
+
+[debug] [2024-12-21T09:39:26.935Z] : TOTAL DURATION OF COMMAND EXEC : 39315
